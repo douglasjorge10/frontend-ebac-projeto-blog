@@ -56,7 +56,7 @@ line-height: 110%;
 
 /* estilo do menu de navegacao */
 .nav-menu{
-    padding: 0 20px;
+    padding: 0 15px;
     width: 30%;
 }
 .nav-menu ul li{
@@ -117,9 +117,8 @@ span a{
 }
 /* estilo do roda pe (footer) */
 footer{
-    margin-top: 10px;
-    
-    background-color: rgba(134, 128, 128, 0.055);
+    margin-top: 10px;  
+    background-color: rgba(134, 128, 128, 0);
 }
 footer .autorais{margin-top: 20px;
     line-height: 12vh;
@@ -132,4 +131,75 @@ footer .autorais{margin-top: 20px;
 }
 html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
     display:  none !important;
+}
+@media(max-width: 715px){
+    h2, h3 {
+        font-family: 'Bebas Neue',cursive;   
+        margin-top: 30px;
+        font-size: 16pt;
+        color: rgb(40, 40, 46);
+    }
+    p{
+        font-size: 11pt;
+        line-height: 1.2em;
+    }
+    body{padding: 0;
+    }
+    /* header cabecalho */
+    h1{
+        font-family: 'Bebas Neue',cursive;       
+        font-size: 30pt;
+    }
+    #span-h1{
+        font-weight: bolder;
+        font-family: 'Bebas Neue',cursive;
+        font-size: 30pt;
+    }
+    header img{
+        width: 1.8em;
+        height: 1.7em;
+        margin-right: 4px;
+    }
+    /* nav menus de navegação */
+    
+    .nav-menu {
+        margin: 0 auto;
+        width:100%
+    }
+   
+    .trab{
+        display: none !important;
+    }
+    .cont{
+        width: 100%;
+        display: flex;
+    }
+    .cont a {
+        width: 50%;
+        font-size: 10pt;
+        margin: auto;
+        text-align: center;
+        margin-left: 6px;
+    }
+    /* section conteudo principal */
+    .corpo{
+        margin: 0;
+        padding: 10px;
+        display: block; 
+    }
+    /* article artigos*/
+    .container-artigos{
+        width: 100%;
+    }
+    .artigo{
+        width: 100%;
+    }
+    .artigo cite{
+        display: block;
+        float: right;
+    }
+    .artigo cite a{
+        font-size: 9pt;
+        width: 100%;
+    }
 }
