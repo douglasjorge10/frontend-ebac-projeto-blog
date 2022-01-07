@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de tags globais */
+body{
+    font-family:'Manrope', sans-serif;
+    color: rgba(0, 0, 0, .8);
+    background-color: rgba(61, 57, 57, 0.089);
+    padding: 10px;
+}
+h1{
+    font-family: 'Bebas Neue',cursive;
+    margin-left: -10px;
+    font-size: 50pt;
+}
+h3, h2{
+    font-family: 'Secular One', sans-serif;
+}
+header, section{
+    display: flex;
+    background-color: #fff;
+}
+
+ul,a,h3{
+    list-style: none;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.76);
+}
+h2,p{
+    margin-bottom: 10px;
+}
+p{font-size: 12pt;
+line-height: 110%;
+}
