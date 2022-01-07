@@ -79,3 +79,31 @@ line-height: 110%;
 .ul-nav{
     margin-bottom: 5%;
 }
+/* estilos dos artigos (article) */
+
+.container-artigos{
+    display: block;
+    width: 70%;
+}
+.artigo{
+    margin-bottom: 50px;
+}
+.artigo img{
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;   
+}
+.artigo  cite a{
+    color: rgb(24, 13, 95);
+    float: right;
+}
+cite {
+    margin-bottom: 40px;
+}
+.aspas{
+    display: inline !important;
+    margin: 0 !important;
+}
+span a{
+    color: rgba(8, 4, 75, 0.685);
+}
