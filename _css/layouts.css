@@ -107,3 +107,21 @@ cite {
 span a{
     color: rgba(8, 4, 75, 0.685);
 }
+/* estilo do roda pe (footer) */
+footer{
+    margin-top: 10px;
+    
+    background-color: rgba(134, 128, 128, 0.055);
+}
+footer .autorais{margin-top: 20px;
+    line-height: 12vh;
+    text-align: center;
+    background-color: #fff;
+}
+/* estilo formulario footer */
+.cog-form__content{
+    padding: 50px !important;
+}
+html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
+    display:  none !important;
+}
