@@ -79,6 +79,14 @@ line-height: 110%;
 .ul-nav{
     margin-bottom: 5%;
 }
+/* Estilo da section conteudo principal */
+.corpo{
+    padding: 50px 30px;
+    text-align: justify;
+    width: 100%;
+    display: flex;
+
+}
 /* estilos dos artigos (article) */
 
 .container-artigos{
