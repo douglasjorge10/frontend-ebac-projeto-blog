@@ -96,10 +96,15 @@ line-height: 110%;
 .artigo{
     margin-bottom: 50px;
 }
-.artigo img{
+.fig-img{
     display: block;
     margin: 10px auto;
     border-radius: 5px;   
+}
+.fig-img img{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
 }
 .artigo  cite a{
     color: rgb(24, 13, 95);
