@@ -54,6 +54,35 @@ line-height: 150%;
     float: right;
 }
 /* Estilo da section conteudo principal */
+#banner-descri{
+    width: 100%; 
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px  rgba(0, 0, 0, 0.212);
+    background-color: rgba(255, 255, 255, 0.753);
+}
+.sect-apre{
+    display: block;
+    margin-top: 1%;
+    width: 100%;
+}
+.fig-apre img{
+    width: 100%;
+    height: auto;
+}
+
+.fig-apre .legenda{
+    position: relative;
+    float: right;
+    color: rgba(7, 7, 121, 0.801);
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14pt;
+    margin: -55% 5% 0 0;
+}
+
 .corpo{
     background-color: rgba(70, 199, 238, 0.349);
     padding: 10px;
@@ -70,52 +99,29 @@ line-height: 150%;
     width: 40%;
     margin: 0 55px;
 }
-#corpo2 div{
-    width: 40%;
-    height: auto;
-    
-}
-#corpo2 div p{
-    width: 100%;
-}
-.sect-apre{
-    display: block;
-    margin-top: 1%;
-    width: 100%;
-}
-.fig-apre{
-    width: 100%;
-    height: 50vh;
-}
-.fig-apre .legenda{
-    position: relative;
-    float: right;
-    color: rgba(7, 7, 121, 0.842);
-    width: 38%;
-    padding: 10px;
-    text-align: center;
-    font-size: 14pt;
-    margin: -40% 10% 0 0;
-}
-#banner-descri{
-    width: 100%; 
-    height: auto;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 6px  rgba(0, 0, 0, 0.212);
-    background-color: rgba(255, 255, 255, 0.753);
-}
-.fig-apre img{
-    width: 100%;
-}
 .fig-img{
     width: 40%;
 }
 .fig-img img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
-.button{
+#corpo2 div{
+    width: 40%;
+    height: auto;   
+}
+#corpo2 div p{
+    width: 100%;
+    line-height: 1.5em;
+}
+
+#corpo2{
+    background-color: rgb(253, 253, 253);
+}
+#corpo2 figure img{
+    width: 100%;
+    height: 90%;
+}.button{
     border-radius: 25px;
     background-color: #ff4500;
     color: #fff;
@@ -132,16 +138,6 @@ line-height: 150%;
     width: 100%;
     padding: 10px 15px;
     color: #fff;
-}
-#corpo2{
-    background-color: rgb(253, 253, 253);
-}
-#corpo2 p{
-    line-height: 1.5em;
-}
-#corpo2 figure img{
-    width: 100%;
-    height: 90%;
 }
 /* estilo do roda pe (footer) */
 footer{
